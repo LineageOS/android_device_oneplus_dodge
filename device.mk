@@ -34,6 +34,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Power
+$(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus
