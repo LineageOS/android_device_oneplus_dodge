@@ -1516,6 +1516,13 @@ odm/etc/horae/horae_target.conf
 # NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 
+# Secure element
+odm/bin/hw/android.hardware.secure_element-service.qti
+odm/etc/init/android.hardware.secure_element-service.qti.rc
+odm/etc/vintf/manifest/secure_element-service.xml
+odm/etc/vintf/manifest/secure_element_omapi_service.xml
+odm/etc/hal_uuid_map_config.xml:vendor/etc/hal_uuid_map_config.xml;SYMLINK=hal_uuid_map_23.xml,hal_uuid_map_29.xml,hal_uuid_map_31.xml;TRYSRCFIRST
+
 # Sensors
 vendor/lib64/sensors.qsh.so
 
