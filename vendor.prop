@@ -1,5 +1,8 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus 13
 
+# Graphics
+ro.surface_flinger.set_touch_timer_ms=200
+
 # USB
 vendor.usb.product_string=OnePlus 13
