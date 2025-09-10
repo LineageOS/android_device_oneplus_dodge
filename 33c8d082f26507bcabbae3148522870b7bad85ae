@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cef89f9c_15633f25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T22:15:55Z",
+      "side": 1,
+      "message": "Doesn\u0027t solve refresh rate stuck at 120Hz.",
+      "revId": "33c8d082f26507bcabbae3148522870b7bad85ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
