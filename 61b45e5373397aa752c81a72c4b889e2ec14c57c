@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce23bc32_dddc3aac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-09-24T01:06:46Z",
+      "side": 1,
+      "message": "use the dynamically imported prop file where we set device models?",
+      "revId": "61b45e5373397aa752c81a72c4b889e2ec14c57c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
