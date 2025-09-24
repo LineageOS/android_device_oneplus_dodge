@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97dcc935_e219776b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-24T08:22:43Z",
+      "side": 1,
+      "message": "fine on my IN variant\n\nOP5D55L1:/ # getprop persist.vendor.nfc.config_file_name\nlibnfc-mtp-SN220.conf_23893",
+      "revId": "962d7449c44167c12c01def1f7e5c978ac22d9f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
