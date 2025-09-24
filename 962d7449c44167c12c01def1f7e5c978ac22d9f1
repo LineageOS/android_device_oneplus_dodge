@@ -16,6 +16,23 @@
       "message": "fine on my IN variant\n\nOP5D55L1:/ # getprop persist.vendor.nfc.config_file_name\nlibnfc-mtp-SN220.conf_23893",
       "revId": "962d7449c44167c12c01def1f7e5c978ac22d9f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6242342_302bd294",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-09-24T08:41:58Z",
+      "side": 1,
+      "message": "```\ndodge / # getprop persist.vendor.nfc.config_file_name\nlibnfc-mtp-SN220.conf_23893\n```",
+      "revId": "962d7449c44167c12c01def1f7e5c978ac22d9f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
