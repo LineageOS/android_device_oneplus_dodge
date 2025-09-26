@@ -4,12 +4,12 @@
         <density>
             <height>1080</height>
             <width>2376</width>
-            <density>480</density>
+            <density>450</density>
         </density>
         <density>
             <height>1440</height>
             <width>3168</width>
-            <density>640</density>
+            <density>560</density>
         </density>
     </densityMapping>
 
