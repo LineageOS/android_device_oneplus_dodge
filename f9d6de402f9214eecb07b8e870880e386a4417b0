@@ -16,6 +16,24 @@
       "message": "Change also BoardConfig flag?",
       "revId": "f9d6de402f9214eecb07b8e870880e386a4417b0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70db39bc_d93a47f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-26T16:15:10Z",
+      "side": 1,
+      "message": "displayconfig overrides this, and if we set the same value in the BoardConfig TARGET_SCREEN_DENSITY flag, the recovery DPI becomes very small.",
+      "parentUuid": "f9283528_aa10c805",
+      "revId": "f9d6de402f9214eecb07b8e870880e386a4417b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
