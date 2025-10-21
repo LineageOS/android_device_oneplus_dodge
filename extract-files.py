@@ -24,6 +24,9 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
+        .regex_replace(r'(enableSWfdForThirdCamUnit += )TRUE', r'\1FALSE')
+        .regex_replace(r'(fdSupport += )TRUE;', r'\1FALSE;'),
     (
         'odm/etc/libnfc-mtp-SN220.conf_23821',
         'odm/etc/libnfc-mtp-SN220.conf_23893'
