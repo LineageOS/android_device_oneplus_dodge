@@ -690,7 +690,6 @@ odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/AIAEVideoModel.bin
 odm/etc/camera/AiFace.json
 odm/etc/camera/BodySeg.json
-odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/M_FaceAttribute_RGB.model
 odm/etc/camera/Vega_Align_occlusion.model
 odm/etc/camera/Vega_Attribute_Face_RGB.model
