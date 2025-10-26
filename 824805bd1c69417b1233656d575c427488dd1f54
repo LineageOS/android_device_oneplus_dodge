@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f421e2b_0435c325",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-26T07:32:26Z",
+      "side": 1,
+      "message": "Maybe we can keep it on vendor?\n\n```\n    \u0027odm/etc/camera/CameraHWConfiguration.config\u0027: blob_fixup()\n        .regex_replace(r\u0027(enableSWfdForThirdCamUnit\\s*\u003d\\s*)TRUE\u0027, r\u0027\\1FALSE\u0027)\n        .regex_replace(r\u0027(fdSupport\\s*\u003d\\s*)TRUE;\u0027, r\u0027\\1FALSE;\u0027),\n```",
+      "revId": "824805bd1c69417b1233656d575c427488dd1f54",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
