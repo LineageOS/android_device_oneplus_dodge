@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d03025c_4fb6888d",
+        "filename": "extract-files.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-26T09:51:12Z",
+      "side": 1,
+      "message": "`(enableSWfdForThirdCamUnit +\u003d )TRUE`\n-\u003e\n`\\1FALSE`\n\neasier to read",
+      "revId": "1c5d5a7cd0e0d66df4089eb7053a8028d03827ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
