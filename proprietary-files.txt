@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_15.0.0.864(EX01)).
+## are from OnePlus 13 (CPH2649_16.0.0.210(EX01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -802,12 +802,15 @@ odm/lib64/camera/libpdCustomParam_Cam2.bin
 odm/lib64/camera/libpdCustomParam_Cam3.bin
 odm/lib64/camera/revision.txt
 odm/lib64/hw/camera.oemlayer.so
+odm/lib64/libsensorbridge.so
 odm/lib64/com.oplus.mcx.linearmapper.so
 odm/lib64/lib2DSlender.so
 odm/lib64/libAECParamParser.so
 odm/lib64/libAF.so
 odm/lib64/libAFParamParser.so
 odm/lib64/libAlgoInterface.so
+odm/lib64/libalogencrypt.so
+odm/lib64/libalog.so
 odm/lib64/libAlgoProcess.so
 odm/lib64/libAncFilter.so
 odm/lib64/libAncHumanSegFigureFusion.so
@@ -819,7 +822,6 @@ odm/lib64/libCS.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libEIS.so
 odm/lib64/libFDClite.so
-odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyJni.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
@@ -881,6 +883,7 @@ odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
 odm/lib64/libc++_shared.so
 odm/lib64/libcam.oplus.3a.v2.so
 odm/lib64/libcam.oplus.3a.v3.so
+odm/lib64/libcam.oplus.3a.v4.so
 odm/lib64/libcreatebin.so
 odm/lib64/libcreatebinForBaseretouch.so
 odm/lib64/libcreatebinForFaceretouch.so
@@ -919,11 +922,14 @@ odm/lib64/libwatermark_photo.so
 odm/lib64/libwrapper_te.so
 odm/lib64/libyuvwrapper.so
 odm/lib64/libzlib.so
+vendor/lib64/libopluscameraframeboost.so
+vendor/lib64/liboplus_cfbt.so
 odm/lib64/vendor.oplus.hardware.camera.aon-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.camera.aon-service-impl.so
 odm/lib64/vendor.oplus.hardware.camera_rfi-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.camera_rfi-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
+vendor/lib64/vendor.oplus.hardware.camera_rfi-V3-ndk.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 vendor/bin/hw/vendor.qti.camera.provider-service_64
@@ -975,6 +981,7 @@ vendor/lib64/camera/components/com.qti.node.muxer.so
 vendor/lib64/camera/components/com.qti.node.qsatalign.so
 vendor/lib64/camera/components/com.qti.node.rectification.so
 vendor/lib64/camera/components/com.qti.node.remosaic.so
+vendor/lib64/libGCore4Cell_32E2.so
 vendor/lib64/camera/components/com.qti.node.sat.so
 vendor/lib64/camera/components/com.qti.node.seg.so
 vendor/lib64/camera/components/com.qti.node.spdepth.so
@@ -1113,6 +1120,7 @@ vendor/lib64/camera/petrelfrontsub_4.pb
 vendor/lib64/camera/qfdserviceconfig.bin
 vendor/lib64/camera/zffront_3.pb
 vendor/lib64/hw/camera.qcom.sm8750.so
+odm/lib64/libcam.odnn.interface.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so
@@ -1424,22 +1432,15 @@ vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json
 # Touchscreen firmware
 odm/firmware/tp/23821/FW_S3910_BOE.img
 odm/firmware/tp/23821/FW_S3910_BOEB8_HBP.img
-odm/firmware/tp/23821/FW_S3910_BOEB8_HBP_FAE.img
-odm/firmware/tp/23821/FW_S3910_BOE_FAE.img
 odm/firmware/tp/23821/FW_S3910_BOE_HBP.img
 odm/firmware/tp/23821/FW_S3910_BOE_HBP_FAE.img
 odm/firmware/tp/23821/FW_S3910_SAMSUNG.img
-odm/firmware/tp/23821/FW_S3910_SAMSUNG_FAE.img
 odm/firmware/tp/23821/FW_S3910_TIANMA.img
-odm/firmware/tp/23821/FW_S3910_TIANMA_FAE.img
 odm/firmware/tp/23821/FW_S3910_TIANMA_HBP.img
-odm/firmware/tp/23821/FW_S3910_TIANMA_HBP_FAE.img
 odm/firmware/tp/23821/GloveDetect.tflite
 odm/firmware/tp/23821/LIB_S3910_BOEB8_HBP_TS_ALGO.so
-odm/firmware/tp/23821/LIB_S3910_BOEB8_HBP_TS_ALGO_HWASAN.so
 odm/firmware/tp/23821/LIB_S3910_BOEB8_HBP_TS_HAL.so
 odm/firmware/tp/23821/LIB_S3910_BOE_HBP_TS_ALGO.so
-odm/firmware/tp/23821/LIB_S3910_BOE_HBP_TS_ALGO_HWASAN.so
 odm/firmware/tp/23821/LIB_S3910_BOE_HBP_TS_HAL.so
 odm/firmware/tp/23821/LIMIT_S3910_BOE.img
 odm/firmware/tp/23821/LIMIT_S3910_BOEB8_HBP.img
