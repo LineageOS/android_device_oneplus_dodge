@@ -1397,6 +1397,7 @@ odm/etc/nfc/libnfc-mtp-SN220.conf_23893:odm/etc/libnfc-mtp-SN220.conf_23893
 odm/etc/nfc/libnfc-nci.conf_23821:vendor/etc/libnfc-nci.conf
 
 # Sensors
+my_product/etc/fusionlight_profile/fusionlight_Main_1_3.json:odm/etc/fusionlight.json
 vendor/lib64/sensors.qsh.so
 
 # Sensors config
