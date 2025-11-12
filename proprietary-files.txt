@@ -1461,6 +1461,7 @@ odm/firmware/uff_spi.mdt
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 
 # Sensors
+my_product/etc/fusionlight_profile/fusionlight_Main_1_3.json:odm/etc/fusionlight_profile/fusionlight_Main_1_3.json
 vendor/lib64/sensors.qsh.so
 
 # Sensors config
