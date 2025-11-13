@@ -12,3 +12,9 @@ vendor.display.uir_support=1
 # Regional properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
 import /odm/etc/${ro.boot.prjname}/build.default.prop
+
+# Sensors
+ro.vendor.oplus.sensor.high_pwm_rgb=true
+ro.vendor.oplus.sensor.brl_receive=true
+ro.vendor.oplus.sensor.lb_algo=true
+ro.vendor.oplus.sensor.use_black_mode=true
