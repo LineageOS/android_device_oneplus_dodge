@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "833f9b75_df5da138",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 890,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-14T19:30:09Z",
+      "side": 1,
+      "message": "Not camera related and I have removed it from sm8750-common.",
+      "range": {
+        "startLine": 890,
+        "startChar": 0,
+        "endLine": 890,
+        "endChar": 35
+      },
+      "revId": "f3cefca911432451cc73dac584b319165abae7ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "942b8039_a9b74bae",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1123,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-14T19:30:09Z",
+      "side": 1,
+      "message": "For pagani, not dodge.",
+      "range": {
+        "startLine": 1122,
+        "startChar": 0,
+        "endLine": 1123,
+        "endChar": 38
+      },
+      "revId": "f3cefca911432451cc73dac584b319165abae7ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
