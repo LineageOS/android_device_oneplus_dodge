@@ -1526,7 +1526,6 @@ odm/firmware/tp/23821/sys_touch_function_feature_config.xml
 odm/firmware/tp/23821/sys_touch_scene_config.xml
 
 # Vibration effects
-odm/etc/vibrator/9999/def/effect_0.bin
 odm/etc/vibrator/9999/def/effect_1.bin
 odm/etc/vibrator/9999/def/effect_10.bin
 odm/etc/vibrator/9999/def/effect_100.bin
