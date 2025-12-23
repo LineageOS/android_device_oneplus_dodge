@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_16.0.1.304(EX01)).
+## are from OnePlus 13 (CPH2653_16.0.2.402(EX01)).
 
 abl.img;AB
 aop.img;AB
