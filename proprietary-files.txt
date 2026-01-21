@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_16.0.2.402(EX01)).
+## are from OnePlus 13 (CPH2653_16.0.3.501(EX01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -590,11 +590,13 @@ odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
 odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin
 odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin
 odm/etc/camera/meishe_lut/bright_coloured.bin
+odm/etc/camera/meishe_lut/ceremony.rgba.bin
 odm/etc/camera/meishe_lut/city.cube.rgb.bin
 odm/etc/camera/meishe_lut/cola.bin
 odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/drjw1994.bin
 odm/etc/camera/meishe_lut/drjw2010.bin
+odm/etc/camera/meishe_lut/festival.rgba.bin
 odm/etc/camera/meishe_lut/fuji-cc-high.bin
 odm/etc/camera/meishe_lut/fuji-cc-low.bin
 odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin
@@ -648,6 +650,7 @@ odm/etc/camera/meishe_lut/red-red.cube.rgb.bin
 odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin
 odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin
 odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin
+odm/etc/camera/meishe_lut/vibe.rgba.bin
 odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin
 odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin
 odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin
@@ -1374,6 +1377,7 @@ odm/firmware/fastchg/23893/charging_hyper_mode_config.txt:odm/firmware/fastchg/2
 odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt
 odm/firmware/fastchg/batt_eis_config.txt
 odm/firmware/fastchg/batt_si_loss_config_table.txt
+odm/firmware/fastchg/battery_damage_config.json
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/charging_thermal_config_default.txt
@@ -1501,6 +1505,7 @@ vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json
 # Touchscreen firmware
 odm/firmware/tp/23821/FW_S3910_BOE.img
 odm/firmware/tp/23821/FW_S3910_BOEB8_HBP.img
+odm/firmware/tp/23821/FW_S3910_BOEB8_HBP_FAE.img
 odm/firmware/tp/23821/FW_S3910_BOE_HBP.img
 odm/firmware/tp/23821/FW_S3910_BOE_HBP_FAE.img
 odm/firmware/tp/23821/FW_S3910_SAMSUNG.img
