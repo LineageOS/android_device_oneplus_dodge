@@ -561,7 +561,6 @@ odm/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so
 odm/etc/camera/livephoto_coverenhancer/libs/libtrace.so
 odm/etc/camera/livephoto_coverenhancer/libs/libzlib.so
 odm/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8750.bin
-odm/etc/camera/livephoto_coverenhancer/models/license_release_gallery.lic
 odm/etc/camera/meishe_lut/800t_blues.bin
 odm/etc/camera/meishe_lut/800t_hdr.bin
 odm/etc/camera/meishe_lut/800t_sdr.bin
@@ -784,7 +783,6 @@ odm/etc/camera/fdc_lite_cl.cache
 odm/etc/camera/fwk_config.json
 odm/etc/camera/gasryuv_1.2_wp.model
 odm/etc/camera/gm_tcs3449_golden
-odm/etc/camera/license_release_fdc.lic
 odm/etc/camera/main_inv_mapxy_33x25.bin
 odm/etc/camera/main_mapxy_33x25.bin
 odm/etc/camera/media_profiles.xml
