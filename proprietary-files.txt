@@ -783,8 +783,11 @@ odm/etc/camera/fdc_cl.cache
 odm/etc/camera/fdc_lite_cl.cache
 odm/etc/camera/fwk_config.json
 odm/etc/camera/gasryuv_1.2_wp.model
+<<<<<<< HEAD
 odm/etc/camera/gm_tcs3449_golden
 odm/etc/camera/license_release_fdc.lic
+=======
+>>>>>>> 46e45ac (erhai: Drop face SDK license file)
 odm/etc/camera/main_inv_mapxy_33x25.bin
 odm/etc/camera/main_mapxy_33x25.bin
 odm/etc/camera/media_profiles.xml
