@@ -1427,6 +1427,7 @@ odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Nature_pGC.txt
 odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt
 odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt
 odm/etc/PanelChaplin/AA569_P_3_A0019_dsc_cmd_mode_panel_Vivid_pGC.txt
+odm/etc/PanelChaplin/panelchaplin
 odm/etc/sdm_display_resolution_extn.xml:vendor/etc/display/sdm_display_resolution_extn.xml;TRYSRCFIRST
 vendor/etc/ltm_config_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
 vendor/etc/spr_cfg_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
