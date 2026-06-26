@@ -1457,10 +1457,7 @@ odm/firmware/uff_spi.b07
 odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
-# NFC
-odm/etc/nfc/libnfc-mtp-SN220.conf_23821:odm/etc/libnfc-mtp-SN220.conf_23821
-odm/etc/nfc/libnfc-mtp-SN220.conf_23893:odm/etc/libnfc-mtp-SN220.conf_23893
-odm/etc/nfc/libnfc-nci.conf_23821:vendor/etc/libnfc-nci.conf
+# NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
 
 # Sensors
