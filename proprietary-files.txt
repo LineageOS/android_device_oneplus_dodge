@@ -1435,6 +1435,21 @@ vendor/etc/spr_cfg_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
 my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
 my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
+# Face unlock
+odm/lib64/libstfaceunlockocl_uff.so
+
+# Face unlock firmware
+odm/firmware/uff_face.b00
+odm/firmware/uff_face.b01
+odm/firmware/uff_face.b02
+odm/firmware/uff_face.b03
+odm/firmware/uff_face.b04
+odm/firmware/uff_face.b05
+odm/firmware/uff_face.b06
+odm/firmware/uff_face.b07
+odm/firmware/uff_face.b08
+odm/firmware/uff_face.mdt
+
 # Fingerprint firmware
 odm/firmware/uff_gx.b00
 odm/firmware/uff_gx.b01
