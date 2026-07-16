@@ -59,6 +59,40 @@ odm/etc/oprec_audrec_params/oprec_record_ID99_Bypass.txt
 odm/etc/oprec_audrec_params/oprec_record_ID9_HE.bin
 odm/etc/oprec_audrec_params/oprec_record_ID9_HE.txt
 
+# Biometrics face firmware
+odm/firmware/uff_face.mdt
+odm/firmware/uff_face.b00
+odm/firmware/uff_face.b01
+odm/firmware/uff_face.b02
+odm/firmware/uff_face.b03
+odm/firmware/uff_face.b04
+odm/firmware/uff_face.b05
+odm/firmware/uff_face.b06
+odm/firmware/uff_face.b07
+odm/firmware/uff_face.b08
+
+# Biometrics fingerprint firmware
+odm/firmware/uff_gx.b00
+odm/firmware/uff_gx.b01
+odm/firmware/uff_gx.b02
+odm/firmware/uff_gx.b03
+odm/firmware/uff_gx.b04
+odm/firmware/uff_gx.b05
+odm/firmware/uff_gx.b06
+odm/firmware/uff_gx.b07
+odm/firmware/uff_gx.b08
+odm/firmware/uff_gx.mdt
+odm/firmware/uff_spi.b00
+odm/firmware/uff_spi.b01
+odm/firmware/uff_spi.b02
+odm/firmware/uff_spi.b03
+odm/firmware/uff_spi.b04
+odm/firmware/uff_spi.b05
+odm/firmware/uff_spi.b06
+odm/firmware/uff_spi.b07
+odm/firmware/uff_spi.b08
+odm/firmware/uff_spi.mdt
+
 # Camera
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
 odm/etc/camera/aigc/aigc_models/blurDet_sm8750.bin
@@ -1434,28 +1468,6 @@ vendor/etc/spr_cfg_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
 # eUICC
 my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
 my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-
-# Fingerprint firmware
-odm/firmware/uff_gx.b00
-odm/firmware/uff_gx.b01
-odm/firmware/uff_gx.b02
-odm/firmware/uff_gx.b03
-odm/firmware/uff_gx.b04
-odm/firmware/uff_gx.b05
-odm/firmware/uff_gx.b06
-odm/firmware/uff_gx.b07
-odm/firmware/uff_gx.b08
-odm/firmware/uff_gx.mdt
-odm/firmware/uff_spi.b00
-odm/firmware/uff_spi.b01
-odm/firmware/uff_spi.b02
-odm/firmware/uff_spi.b03
-odm/firmware/uff_spi.b04
-odm/firmware/uff_spi.b05
-odm/firmware/uff_spi.b06
-odm/firmware/uff_spi.b07
-odm/firmware/uff_spi.b08
-odm/firmware/uff_spi.mdt
 
 # NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
