@@ -54,12 +54,11 @@ PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus
 
 # Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23821/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23821/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.default.prop
+REGIONAL_PROP_FILES := $(wildcard $(LOCAL_PATH)/properties/*/*.prop)
+
+PRODUCT_COPY_FILES += $(foreach f,$(REGIONAL_PROP_FILES), \
+    $(f):$(TARGET_COPY_OUT_ODM)/etc/$(patsubst $(LOCAL_PATH)/%,%,$(f)) \
+    $(f):$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/etc/$(patsubst $(LOCAL_PATH)/%,%,$(f)))
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
