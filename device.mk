@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget
 
 # NFC
+PRODUCT_PACKAGES += \
+    libnfc_vendor_extn_vnd
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-mtp-SN220.conf_23821:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_23821 \
     $(LOCAL_PATH)/configs/nfc/libnfc-mtp-SN220.conf_23893:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_23893 \
