@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5869405_f5cfb908",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2026-09-13T23:44:16Z",
+      "side": 1,
+      "message": "plz test if nfc is still fully functional. piloti may need this as well",
+      "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
