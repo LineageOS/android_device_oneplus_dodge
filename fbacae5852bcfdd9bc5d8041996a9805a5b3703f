@@ -124,6 +124,23 @@
       "parentUuid": "48fa24a0_687c0402",
       "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbbd7cc4_d5fddca4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-14T20:24:09Z",
+      "side": 1,
+      "message": "Yea, I would prefer to diverge history.",
+      "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
