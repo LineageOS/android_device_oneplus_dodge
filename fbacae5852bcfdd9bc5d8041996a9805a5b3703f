@@ -88,6 +88,24 @@
       "parentUuid": "5444cbc7_eef6100f",
       "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48fa24a0_687c0402",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-14T20:09:45Z",
+      "side": 1,
+      "message": "So what you say is that we eventually diverge history at this point because for 24.0 the proper way would be NFC configs as today + that lib?",
+      "parentUuid": "2240cccd_da7f872f",
+      "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
