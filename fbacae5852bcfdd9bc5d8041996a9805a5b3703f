@@ -141,6 +141,23 @@
       "message": "Yea, I would prefer to diverge history.",
       "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0ad08eb_16c11d54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2026-09-14T20:29:37Z",
+      "side": 1,
+      "message": "Yes, it does cause issues. The emulated card fails to pass most turnstiles in Île-de-France public transport system. I just got back from there with some logs collected. This patch might fix it, but I won\u0027t be able to verify until the next visit...",
+      "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
