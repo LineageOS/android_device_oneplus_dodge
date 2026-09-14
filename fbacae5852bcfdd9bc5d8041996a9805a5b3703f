@@ -52,6 +52,24 @@
       "parentUuid": "b683fba5_339bdadf",
       "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5444cbc7_eef6100f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-14T18:40:31Z",
+      "side": 1,
+      "message": "Thanks for clarifying, but I picked it to a 24.0 build. I can\u0027t test on 23.2 anymore.",
+      "parentUuid": "0900911f_45779bde",
+      "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
