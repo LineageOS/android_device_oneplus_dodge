@@ -34,6 +34,24 @@
       "parentUuid": "b5869405_f5cfb908",
       "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0900911f_45779bde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2026-09-14T14:59:28Z",
+      "side": 1,
+      "message": "Please note that this fix applies only to 23.2. AOSP introduced libnfc_vendor_extn in 24.0 which appears to do the same remapping in https://github.com/LineageOS/android_hardware_nxp_nfc/blob/lineage-24.0/vendor_extns/libnfc_vendor_extn/src/pal/system_ext/ConfigHandler.cpp, so we *may* build that module instead.\n\nFYI the CLO variant is https://git.codelinaro.org/clo/la/platform/vendor/nxp/opensource/libnfc_vendor_extn/-/tree/LA.QSSI.16.0.r1-15300-qssi.0, which is highly similar to the AOSP fork.",
+      "parentUuid": "b683fba5_339bdadf",
+      "revId": "fbacae5852bcfdd9bc5d8041996a9805a5b3703f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
