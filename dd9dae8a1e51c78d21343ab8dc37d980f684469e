@@ -16,6 +16,23 @@
       "message": "I am not sure if building just this lib is sufficient. Hold until I look into it further.",
       "revId": "dd9dae8a1e51c78d21343ab8dc37d980f684469e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b4aa3a2_ea455610",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-16T22:42:10Z",
+      "side": 1,
+      "message": "I can\u0027t even build it.\n\n\u003e  build/make/core/main.mk:1074: warning:  device/oneplus/dodge/lineage_dodge.mk includes non-existent modules in PRODUCT_PACKAGES\n\u003e  Offending entries:\n\u003e  libnfc_vendor_extn_vnd",
+      "revId": "dd9dae8a1e51c78d21343ab8dc37d980f684469e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
