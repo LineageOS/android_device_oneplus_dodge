@@ -16,6 +16,24 @@
       "message": "Belongs to the configs section",
       "revId": "005246ce117b5201d687d50f5049764e88cddbe5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c99404d5_9462a176",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1400,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-23T20:24:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8ab0da4_5f124776",
+      "revId": "005246ce117b5201d687d50f5049764e88cddbe5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
