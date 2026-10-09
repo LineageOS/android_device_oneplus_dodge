@@ -1432,6 +1432,16 @@ odm/etc/sdm_display_resolution_extn.xml:vendor/etc/display/sdm_display_resolutio
 vendor/etc/ltm_config_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
 vendor/etc/spr_cfg_AA569_P_3_A0019_dsc_cmd_mode_panel.xml
 
+# Dolby Vision
+odm/bin/hw/dvs-aidl-service
+odm/etc/dolby/display/dolby_vision.cfg
+odm/etc/dolby/dolby_vision.cfg
+odm/etc/init/dvs-aidl-service.rc
+odm/etc/vintf/manifest/dvs-aidl-service.xml
+odm/etc/media_codecs_dolby_vision.xml:vendor/etc/media_codecs_dolby_vision.xml
+odm/lib64/libdolbyclstc.so
+odm/lib64/vendor.dolby.dvs-V1-ndk.so
+
 # eUICC
 my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
 my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
