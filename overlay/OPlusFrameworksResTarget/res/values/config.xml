@@ -20,6 +20,13 @@
         <item>10</item>
     </integer-array>
 
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <integer-array name="config_availableColorModes">
+        <item>303</item>
+        <item>301</item>
+        <item>307</item>
+    </integer-array>
+
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
