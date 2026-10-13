@@ -59,6 +59,30 @@ odm/etc/oprec_audrec_params/oprec_record_ID99_Bypass.txt
 odm/etc/oprec_audrec_params/oprec_record_ID9_HE.bin
 odm/etc/oprec_audrec_params/oprec_record_ID9_HE.txt
 
+# Audio spatializer
+odm/etc/spatializer/HP_MOVIE_ANALOG.bin
+odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin
+odm/etc/spatializer/HP_MOVIE_DIGITAL.bin
+odm/etc/spatializer/HP_MOVIE_GALILEO.bin
+odm/etc/spatializer/HP_MUSIC_ANALOG.bin
+odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin
+odm/etc/spatializer/HP_MUSIC_DIGITAL.bin
+odm/etc/spatializer/HP_MUSIC_GALILEO.bin
+odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin
+odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin
+odm/etc/spatializer/SPK_MOVIE_lvl1.bin
+odm/etc/spatializer/SPK_MOVIE_lvl10.bin
+odm/etc/spatializer/SPK_MOVIE_lvl2.bin
+odm/etc/spatializer/SPK_MOVIE_lvl3.bin
+odm/etc/spatializer/SPK_MOVIE_lvl4.bin
+odm/etc/spatializer/SPK_MOVIE_lvl5.bin
+odm/etc/spatializer/SPK_MOVIE_lvl6.bin
+odm/etc/spatializer/SPK_MOVIE_lvl7.bin
+odm/etc/spatializer/SPK_MOVIE_lvl8.bin
+odm/etc/spatializer/SPK_MOVIE_lvl9.bin
+odm/lib64/soundfx/libOplusSpatializerAidl_DKY.so
+odm/lib64/liboplus_audiox.so
+
 # Camera
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
 odm/etc/camera/aigc/aigc_models/blurDet_sm8750.bin
