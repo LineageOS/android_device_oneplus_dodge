@@ -16,7 +16,14 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <library name="offload_bundle" path="libqcompostprocbundle.so"/>
         <library name="audio_pre_processing" path="libqcomvoiceprocessing.so"/>
         <library name="volume_listener" path="libvolumelistener.so"/>
-        <library name="quasar" path="libquasar.so"/>
+        <!-- OPLUS_BUG_STABILITY -->
+        <!-- Liang.Xu@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2024/07/10, remove unused effect for vts -->
+        <!--library name="quasar" path="libquasar.so"/-->
+        <!-- OPLUS_BUG_STABILITY -->
+        <!-- OPLUS SPATIALIZER-->
+        <!-- Liang.Xu@MULTIMEDIA.AUDIOSERVER.EFFECT, 2023/04/18, add for oplus spatializer -->
+        <library name="spatializersw" path="libOplusSpatializerAidl_DKY.so"/>
+        <!-- OPLUS SPATIALIZER END -->
     </libraries>
 
     <effects>
@@ -65,7 +72,13 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <effect name="alarm_helper" library="volume_listener" uuid="09f303e2-0590-11e5-8fdb-0025b32654a0"/>
         <effect name="voice_helper" library="volume_listener" uuid="0ace5c08-0590-11e5-ae9e-0025b32654a0"/>
         <effect name="notification_helper" library="volume_listener" uuid="0b776dde-0590-11e5-81ba-0025b32654a0"/>
-        <effect name="quasar" library="quasar" uuid="71d0e2ee-e44d-483d-a809-09e75ee55ecd"/>
+        <!-- OPLUS_BUG_STABILITY -->
+        <!-- Liang.Xu@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2024/07/10, remove unused effect for vts -->
+        <!--effect name="quasar" library="quasar" uuid="71d0e2ee-e44d-483d-a809-09e75ee55ecd"/-->
+        <!-- OPLUS_BUG_STABILITY -->
+        <!-- Liang.Xu@MULTIMEDIA.AUDIOSERVER.EFFECT, 2023/04/18, add for oplus spatializer -->
+        <effect name="spatializer" library="spatializersw" uuid="de4d6aaf-4e9d-473d-8168-4ce92d50a637"/>
+        <!-- OPLUS SPATIALIZER END -->
     </effects>
 
     <postprocess>
