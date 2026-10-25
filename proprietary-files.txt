@@ -1557,6 +1557,11 @@ vendor/etc/sensors/config/qsh_camera_imx688_6.json
 vendor/etc/sensors/config/qsh_camera_imx688_6_actuator.json
 vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json
 
+# Touch
+odm/bin/hw/vendor-oplus-hardware-touch-V2-service
+odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
+odm/etc/vintf/manifest/manifest_touch_aidl.xml
+
 # Touchscreen firmware
 odm/firmware/tp/23821/FW_S3910_BOE.img
 odm/firmware/tp/23821/FW_S3910_BOEB8_HBP.img
