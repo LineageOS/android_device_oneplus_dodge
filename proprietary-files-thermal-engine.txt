@@ -3,5 +3,6 @@
 
 # Thermal engine
 odm/etc/temperature_profile/sys_thermal_control_config.xml
+odm/etc/temperature_profile/sys_thermal_control_config.xml:vendor/etc/charger_cool_down.conf
 system_ext/etc/horae/horae.conf;EXTRACT_ONLY
 vendor/etc/thermal-engine.conf
